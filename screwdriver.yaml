@@ -1,0 +1,8 @@
+jobs:
+  main:
+    steps:
+      - env: env
+      - sh: |
+          arr=(1, 2, 3)
+          echo ${arr[@]}
+    

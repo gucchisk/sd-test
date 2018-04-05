@@ -1,3 +1,5 @@
+shared:
+  image: buildpack-deps
 jobs:
   main:
     steps:
